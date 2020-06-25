@@ -42,6 +42,6 @@ if __name__ == '__main__':
         elif action == 'O':
             print("The car has driven {} kilometers".format(my_car.odometer))
         elif action == 'S':
-            print("The car's average speed was {} kph".format(my_car.average_speed()))
+            print("The car's average speed was {} km/hour".format(my_car.average_speed()))
         my_car.step()
         my_car.say_state()
